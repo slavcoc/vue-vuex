@@ -12,6 +12,7 @@ import { store } from './store/store'
 
 export default {
   name: 'app',
+  // we need to include store in our app component so we cann access it globaly from any component
   store,
   components: {
     Input,
